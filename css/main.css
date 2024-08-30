@@ -113,3 +113,29 @@ body {
 .section-field .field-book a {
   background-image: url(../images/Rectangle\ 3.png);
 }
+
+@media (min-width: 768px) {
+  .wrap {
+    width: calc(100% - 6rem);
+  }
+
+  .section-text h1 {
+    font-size: 7rem;
+    line-height: 8.76rem;
+  }
+
+  .section-text p {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    margin-bottom: 6rem;
+  }
+
+  .section-field ul {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .section-field li {
+    flex: 1;
+  }
+}

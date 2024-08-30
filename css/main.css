@@ -44,7 +44,7 @@ body {
 }
 
 .wrap {
-  width: calc(100% - 3.4rem);
+  max-width: calc(100% - 3.4rem);
   margin: 10rem auto;
 }
 
@@ -116,7 +116,7 @@ body {
 
 @media (min-width: 768px) {
   .wrap {
-    width: calc(100% - 6rem);
+    max-width: calc(100% - 6rem);
   }
 
   .section-text h1 {
@@ -137,5 +137,31 @@ body {
 
   .section-field li {
     flex: 1;
+  }
+}
+
+
+@media (min-width: 1920px) {
+  .wrap {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 10.2rem;
+    max-width: calc(100% - 7.2rem);
+    margin: 24rem auto;
+  }
+
+  .section-text p {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .section-field ul {
+    flex-direction: column;
+  }
+
+  .section-field li a{
+    min-width: 48.6rem;
+    min-height: 28rem;
   }
 }

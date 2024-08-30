@@ -140,7 +140,6 @@ body {
   }
 }
 
-
 @media (min-width: 1920px) {
   .wrap {
     display: flex;
@@ -160,7 +159,7 @@ body {
     flex-direction: column;
   }
 
-  .section-field li a{
+  .section-field li a {
     min-width: 48.6rem;
     min-height: 28rem;
   }
